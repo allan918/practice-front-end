@@ -1,0 +1,59 @@
+{
+  "name": "problem-set-06",
+  "version": "0.1.19.1",
+  "private": true,
+  "description": "",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/node": "^7.2.2",
+    "@babel/polyfill": "^7.2.5",
+    "@babel/preset-env": "^7.3.1",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^24.0.0",
+    "cheerio": "^1.0.0-rc.2",
+    "fetch-mock": "^7.2.0",
+    "jest": "^24.0.0",
+    "jest-style-matchers": "^0.1.1",
+    "jquery": "^3.3.1",
+    "md5": "^2.2.1",
+    "node-fetch": "^2.2.0",
+    "readline-sync": "^1.4.9"
+  },
+  "babel": {
+    "presets": [
+      "@babel/env"
+    ]
+  },
+  "eslintConfig": {
+    "parserOptions": {
+      "ecmaVersion": 6
+    },
+    "env": {
+      "browser": true,
+      "node": true,
+      "shared-node-browser": true,
+      "jquery": true
+    },
+    "extends": "eslint:recommended",
+    "rules": {
+      "no-console": "off",
+      "semi": [
+        "off",
+        "always",
+        {
+          "omitLastInOneLineBlock": true
+        }
+      ],
+      "camelcase": [
+        "error"
+      ]
+    }
+  },
+  "dependencies": {}
+}
